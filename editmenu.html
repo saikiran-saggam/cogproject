@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Edit Menu</title>
+	<link type="text/css" rel="stylesheet" href="C:\Users\USER\Desktop\Intern\styleform.css">
+</head>
+<body>
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+			<header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title"><a href="C:\Users\USER\Desktop\Intern\frontpage.html">truYum</a></span>
+               
+                <img class="mdl-layout-icon logo" src="C:\Users\USER\Desktop\Intern\truYum-FrontEnd-master\images\truyum-logo-light.png"></img>
+                
+                <div class="mdl-layout-spacer"></div>
+               
+                <nav class="mdl-navigation">
+                    <a class="mdl-navigation__link" href="C:/Users/USER/Desktop/Intern/menulist(admin).html">Menu</a>
+                   
+                </nav>
+            </div>
+        </header>
+        <section>
+        <div>
+            <h2>Edit Menu Item</h2>
+        </div>
+        <form action="" name="edit-menu">
+        	<table >
+                <tr>
+                <td><b>Name</b></td>
+                <td><input type="text" id="item-name" name="item-name" placeholder="Enter item name" required></td>
+                </tr>
+                <tr>
+                <th><label >Price (Rs.)</label></th>
+                <th><label>Active</label></th>
+                <th><label>Date of Launch</label></th>
+                <th><label>Category</label></th>
+                </tr>
+                
+                <tr>
+                    <td><input type="text" id="rs" name="rs" required></td>
+                    <td>
+                        <input type="radio" id="active-yes" value="yes" name="active">
+                        <label >Yes</label>
+                        <input type="radio" id="active-no" value="no" name="active">
+                        <label >No</label>
+                    </td>
+                    <td><input type="date" id="launch-date" name="launch-date" required></td>    
+                    <td>
+                        <select name="category" id="category">
+                            <option value="Starters">Starters</option>
+                            <option value="Main Course">Main Course</option>
+                            <option value="Dessert">Dessert</option>
+                            <option value="Drinks">Drinks</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+
+            <div id="delivery">
+                <input type="checkbox" id="free-delivery" name="free-delivery" value="free-delivery">
+                <label>Free Delivery</label>
+            </div>
+
+           <input type="submit" id="save" name="save" class="saggam" value="Save" style="border-radius: 30px; background-color: #2f4f4f;border: none;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 2px;" onclick="location.href='C:\\Users\\USER\\Desktop\\Intern\\cartstatus.html'">
+
+        </form>
+    </section>
+    <footer class="mdl-mini-footer">
+            <div class="mdl-mini-footer__left-section">
+                <div class="mdl-logo">Copyright &copy; 2019</div>
+            </div>
+        </footer>
+</div>
+</body>
+</html>

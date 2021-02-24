@@ -1,0 +1,96 @@
+body
+{
+	background-color: #E6E6FA;
+	font-family: verdana;
+}
+.buttons
+{
+	background-color: #2f4f4f;
+	border-radius: 40px;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+}
+.buttons:hover
+{
+	background-color: grey;
+	color: black;
+	margin-bottom: 20;
+
+}
+.saggam:hover
+{
+	background-color: grey;
+	color: black;
+	margin-bottom: 20;
+}
+.mdl-layout__header-row {
+    background: rgb(48, 84, 150);
+}
+
+.mdl-layout__drawer-button {
+    background-color: rgb(48,84,150) ;
+}
+
+.mdl-mini-footer {
+    background-color: rgb(141, 141, 141) ;
+
+}
+
+.logo {
+    height: 50px;
+    width: 40px;
+    padding: 3px;
+    margin-left: 25px;
+    float: left;
+}
+
+.mdl-layout__header-row
+{
+background-color: #2f4f4f;
+overflow: hidden;
+}
+.mdl-layout__header-row a
+{
+float: right;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+font-family: verdana;
+}
+.mdl-layout__header-row a:hover{
+	background-color: #ddd;
+	color: black;
+}
+.mdl-layout__header-row a.active{
+	background-color: #4CAF50;
+	color: white;
+}
+.mdl-layout-title
+{
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 5px 16px;
+text-decoration: none;
+font-size: 40px;
+font-family: arial;
+}
+h1{
+	font-size: 2rem;
+	color: #2F4F4F; 
+	font-family: verdana ;
+	float: center;
+}
+.notif
+{
+	font-weight: bold;
+	color: green;
+}
